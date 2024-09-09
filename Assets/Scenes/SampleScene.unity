@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _level: {fileID: 2198133527280772100, guid: e8abb17736c891b4db7818e8cd94132f, type: 3}
   _player: {fileID: 3052872456345596815, guid: 519c3df5aa1671642a6c774dffedb17e, type: 3}
+  _playerUI: {fileID: 5303739251668194633, guid: dde4b606ec6c41d4a816a335a03e493a, type: 3}
   _prefabFigures:
   - {fileID: 4286116940306001861, guid: 7c5f429a3e2441946ab9da325677df74, type: 3}
   - {fileID: 28542258753473625, guid: b774eaef4dd212543aa720423445a01f, type: 3}

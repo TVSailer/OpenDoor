@@ -804,7 +804,8 @@ GameObject:
   - component: {fileID: 177247622821566440}
   - component: {fileID: 2360402868235228578}
   - component: {fileID: 4074923266015803760}
-  m_Layer: 0
+  - component: {fileID: 7656713834915401798}
+  m_Layer: 7
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -897,6 +898,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7656713834915401798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2555785622340798945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0098fab4ca6443a98e1e3b3151a0be27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _textInteract: Factory creaded blue figures
+  isInteract: 0
 --- !u!1 &3171290732289394266
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,6 +1057,9 @@ MonoBehaviour:
   _factoryBlue: {fileID: 5686215023763065406}
   _factoryRed: {fileID: 6983264701616440904}
   _spawnPlayer: {fileID: 5658416010236865663}
+  _interactions:
+  - {fileID: 8422099658272271487}
+  - {fileID: 7656713834915401798}
 --- !u!1 &3513254756616012449
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,7 +1108,8 @@ GameObject:
   - component: {fileID: 8578205410622373150}
   - component: {fileID: 1730937015598397695}
   - component: {fileID: 6859104667747744687}
-  m_Layer: 0
+  - component: {fileID: 8422099658272271487}
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1183,6 +1202,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8422099658272271487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4529707516849611675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da890151ac4443c088521b51662c356a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _textInteract: Factory creaded red figures
+  isInteract: 0
 --- !u!1 &4867695495566662035
 GameObject:
   m_ObjectHideFlags: 0

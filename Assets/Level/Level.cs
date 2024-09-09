@@ -14,5 +14,8 @@ namespace Levels
         [Header("Player")]
         [SerializeField] private Transform _spawnPlayer;
         public Transform SpawnPlayer => _spawnPlayer;
+
+        [Header("Interactions")] 
+        public Interactive[] _interactions;
     }
 }
